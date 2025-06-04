@@ -917,17 +917,20 @@
     </mxGraphModel>
   </diagram>
   <diagram id="HW6H4NnDL9B8fqUGFQah" name="Page-4">
-    <mxGraphModel dx="1455" dy="1029" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1351" dy="956" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="g--azPPLOamJhC4rQi6E-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g--azPPLOamJhC4rQi6E-53">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="435.62" y="2870" as="targetPoint" />
+            <mxPoint x="220" y="2900" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="435.62" y="2680" />
+              <mxPoint x="220" y="2710" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="g--azPPLOamJhC4rQi6E-89" value="" style="strokeWidth=0.5;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=default;dashed=1;dashPattern=12 12;" vertex="1" parent="1">
+          <mxGeometry x="80" y="2720" width="399.07" height="134" as="geometry" />
         </mxCell>
         <mxCell id="oGqe_OXvEKaWkhQmlHjR-1" value="&lt;font style=&quot;font-size: 28px;&quot;&gt;Flow 1 - Create Deposit&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="265" y="18" width="320" height="50" as="geometry" />
@@ -1143,78 +1146,46 @@
           <mxGeometry x="348.13" y="2250" width="230" height="50" as="geometry" />
         </mxCell>
         <mxCell id="g--azPPLOamJhC4rQi6E-46" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="390.62" y="2320" width="100" height="100" as="geometry" />
+          <mxGeometry x="175" y="2350" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="g--azPPLOamJhC4rQi6E-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="g--azPPLOamJhC4rQi6E-49" target="g--azPPLOamJhC4rQi6E-53">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="g--azPPLOamJhC4rQi6E-49" value="Advertising&amp;nbsp;&lt;div&gt;campaigh&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;payment&lt;/span&gt;&lt;/div&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
-          <mxGeometry x="345.62" y="2480" width="190" height="60" as="geometry" />
+          <mxGeometry x="130" y="2510" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="g--azPPLOamJhC4rQi6E-53" value="Create Advertising campaign and launch" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="364.37" y="2590" width="152.5" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="g--azPPLOamJhC4rQi6E-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="g--azPPLOamJhC4rQi6E-58" target="g--azPPLOamJhC4rQi6E-60" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="286.88" y="3082" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="g--azPPLOamJhC4rQi6E-56" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="g--azPPLOamJhC4rQi6E-55">
-          <mxGeometry x="-0.1942" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="g--azPPLOamJhC4rQi6E-57" value="NO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="g--azPPLOamJhC4rQi6E-58" target="g--azPPLOamJhC4rQi6E-61" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="449.38" y="2997" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="g--azPPLOamJhC4rQi6E-58" value="Sign document (agreement/appendix) and create invoice to platfrom from blogger&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="273" y="3240" width="152.5" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="g--azPPLOamJhC4rQi6E-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="g--azPPLOamJhC4rQi6E-60" target="g--azPPLOamJhC4rQi6E-62" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="134.3800000000001" y="3362" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="g--azPPLOamJhC4rQi6E-60" value="Application approve" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="236.88" y="3080" width="100" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="g--azPPLOamJhC4rQi6E-61" value="certificate of completed work" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="384.38" y="3080" width="100" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="g--azPPLOamJhC4rQi6E-62" value="Send money to blogger" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="58.129999999999995" y="3200" width="152.5" height="70" as="geometry" />
+          <mxGeometry x="148.75" y="2620" width="152.5" height="70" as="geometry" />
         </mxCell>
         <mxCell id="g--azPPLOamJhC4rQi6E-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g--azPPLOamJhC4rQi6E-46" target="g--azPPLOamJhC4rQi6E-49">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="g--azPPLOamJhC4rQi6E-91" value="" style="group;fillColor=default;" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="79.07" y="2650" width="277.18" height="134" as="geometry" />
-        </mxCell>
-        <mxCell id="g--azPPLOamJhC4rQi6E-93" value="" style="group" vertex="1" connectable="0" parent="g--azPPLOamJhC4rQi6E-91">
-          <mxGeometry width="277.18" height="134" as="geometry" />
-        </mxCell>
-        <mxCell id="g--azPPLOamJhC4rQi6E-89" value="" style="strokeWidth=0.5;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=none;dashed=1;dashPattern=12 12;" vertex="1" parent="g--azPPLOamJhC4rQi6E-93">
-          <mxGeometry x="220.93" y="40" width="271.87" height="134" as="geometry" />
-        </mxCell>
-        <mxCell id="g--azPPLOamJhC4rQi6E-92" value="" style="group" vertex="1" connectable="0" parent="g--azPPLOamJhC4rQi6E-93">
-          <mxGeometry x="247.49" y="59" width="218.75" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="g--azPPLOamJhC4rQi6E-87" value="Blogger&amp;nbsp;&lt;div&gt;payment&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="g--azPPLOamJhC4rQi6E-92">
-          <mxGeometry width="100" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="g--azPPLOamJhC4rQi6E-88" value="Blogger&lt;div&gt;payment&lt;/div&gt;&lt;div&gt;refund&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="g--azPPLOamJhC4rQi6E-92">
-          <mxGeometry x="118.75" width="100" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="g--azPPLOamJhC4rQi6E-96" value="Create Advertising campaign is over" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="361.87" y="2870" width="152.5" height="70" as="geometry" />
+        <mxCell id="g--azPPLOamJhC4rQi6E-96" value="Created Advertising campaign is over" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="146.25" y="2900" width="152.5" height="70" as="geometry" />
         </mxCell>
         <mxCell id="g--azPPLOamJhC4rQi6E-97" value="report completed work" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" vertex="1" parent="1">
-          <mxGeometry x="640.62" y="2872.5" width="100" height="65" as="geometry" />
+          <mxGeometry x="425" y="2902.5" width="100" height="65" as="geometry" />
         </mxCell>
         <mxCell id="g--azPPLOamJhC4rQi6E-98" value="Entry transaction&lt;div&gt;history and send&amp;nbsp;&lt;/div&gt;&lt;div&gt;report&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="g--azPPLOamJhC4rQi6E-96" target="g--azPPLOamJhC4rQi6E-97">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g--azPPLOamJhC4rQi6E-111" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="79.07" y="2720" width="400" height="134" as="geometry" />
+        </mxCell>
+        <mxCell id="g--azPPLOamJhC4rQi6E-91" value="" style="group;fillColor=none;container=0;strokeColor=none;" vertex="1" connectable="0" parent="g--azPPLOamJhC4rQi6E-111">
+          <mxGeometry width="400" height="134" as="geometry" />
+        </mxCell>
+        <mxCell id="g--azPPLOamJhC4rQi6E-110" value="" style="group" vertex="1" connectable="0" parent="g--azPPLOamJhC4rQi6E-111">
+          <mxGeometry x="30.930000000000007" y="20" width="330" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="g--azPPLOamJhC4rQi6E-99" value="Get&lt;div&gt;Comission&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="g--azPPLOamJhC4rQi6E-110">
+          <mxGeometry x="230" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="g--azPPLOamJhC4rQi6E-87" value="Blogger&amp;nbsp;&lt;div&gt;payment&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="g--azPPLOamJhC4rQi6E-110">
+          <mxGeometry width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="g--azPPLOamJhC4rQi6E-88" value="Blogger&lt;div&gt;payment&lt;/div&gt;&lt;div&gt;refund&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="g--azPPLOamJhC4rQi6E-110">
+          <mxGeometry x="120" width="100" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
