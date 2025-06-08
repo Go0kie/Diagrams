@@ -676,12 +676,6 @@
         <mxCell id="njTQ-AbPktpV6YrMjQLF-20" value="ID, journal_id, account_id, amount, created" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="650" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="njTQ-AbPktpV6YrMjQLF-25" value="CREATE WITHDRAWAL" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="1640" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="njTQ-AbPktpV6YrMjQLF-31" value="CREATE DOCS COMPLETE&lt;div&gt;PROJECT&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="210" y="1640" width="220" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="njTQ-AbPktpV6YrMjQLF-32" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="40" y="480" width="640" height="1090" as="geometry" />
         </mxCell>
@@ -800,6 +794,60 @@
         </mxCell>
         <mxCell id="njTQ-AbPktpV6YrMjQLF-26" value="CREATE DOCS COMPLETE&lt;div&gt;PROJECT&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="njTQ-AbPktpV6YrMjQLF-32">
           <mxGeometry x="180" y="1010" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3HKNmpvy-VFvlDuLrUeu-59" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="40" y="1600" width="590" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="3HKNmpvy-VFvlDuLrUeu-58" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" vertex="1" parent="3HKNmpvy-VFvlDuLrUeu-59">
+          <mxGeometry width="590" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="3HKNmpvy-VFvlDuLrUeu-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="3HKNmpvy-VFvlDuLrUeu-59" source="njTQ-AbPktpV6YrMjQLF-25" target="njTQ-AbPktpV6YrMjQLF-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="njTQ-AbPktpV6YrMjQLF-25" value="CREATE WITHDRAWAL" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3HKNmpvy-VFvlDuLrUeu-59">
+          <mxGeometry x="10" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="njTQ-AbPktpV6YrMjQLF-31" value="CREATE DOCS&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;REFUND&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ADVANCE&lt;/span&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="3HKNmpvy-VFvlDuLrUeu-59">
+          <mxGeometry x="180" y="10" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3HKNmpvy-VFvlDuLrUeu-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="3HKNmpvy-VFvlDuLrUeu-59" source="3HKNmpvy-VFvlDuLrUeu-3" target="3HKNmpvy-VFvlDuLrUeu-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3HKNmpvy-VFvlDuLrUeu-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="3HKNmpvy-VFvlDuLrUeu-59" source="3HKNmpvy-VFvlDuLrUeu-3" target="3HKNmpvy-VFvlDuLrUeu-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3HKNmpvy-VFvlDuLrUeu-3" value="REFUND ADVANCE" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="3HKNmpvy-VFvlDuLrUeu-59">
+          <mxGeometry x="180" y="110" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3HKNmpvy-VFvlDuLrUeu-4" value="turnover account - amount" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3HKNmpvy-VFvlDuLrUeu-59">
+          <mxGeometry x="460" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3HKNmpvy-VFvlDuLrUeu-5" value="user account - amount" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3HKNmpvy-VFvlDuLrUeu-59">
+          <mxGeometry x="460" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3HKNmpvy-VFvlDuLrUeu-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="3HKNmpvy-VFvlDuLrUeu-10" target="3HKNmpvy-VFvlDuLrUeu-11" parent="3HKNmpvy-VFvlDuLrUeu-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3HKNmpvy-VFvlDuLrUeu-10" value="CREATE WITHDRAWAL" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3HKNmpvy-VFvlDuLrUeu-59">
+          <mxGeometry x="10" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3HKNmpvy-VFvlDuLrUeu-11" value="CREATE DOCS&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;GET&lt;/span&gt;&lt;div&gt;PROFIT&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="3HKNmpvy-VFvlDuLrUeu-59">
+          <mxGeometry x="180" y="330" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3HKNmpvy-VFvlDuLrUeu-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="3HKNmpvy-VFvlDuLrUeu-14" target="3HKNmpvy-VFvlDuLrUeu-15" parent="3HKNmpvy-VFvlDuLrUeu-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3HKNmpvy-VFvlDuLrUeu-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="3HKNmpvy-VFvlDuLrUeu-14" target="3HKNmpvy-VFvlDuLrUeu-16" parent="3HKNmpvy-VFvlDuLrUeu-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3HKNmpvy-VFvlDuLrUeu-14" value="&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;GET&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;PROFIT&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="3HKNmpvy-VFvlDuLrUeu-59">
+          <mxGeometry x="180" y="430" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3HKNmpvy-VFvlDuLrUeu-15" value="turnover account - amount" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3HKNmpvy-VFvlDuLrUeu-59">
+          <mxGeometry x="460" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3HKNmpvy-VFvlDuLrUeu-16" value="user account - amount" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3HKNmpvy-VFvlDuLrUeu-59">
+          <mxGeometry x="460" y="530" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
